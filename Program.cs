@@ -37,7 +37,7 @@ namespace guess_my_number
         }
         else
         {
-          Console.Write($"Is your number {newGuess} (h)igher/(l)ower/(y)es? ");
+          Console.Write($"Is your number {newGuess} [(h)igher/(l)ower/(y)es]? ");
         }
         userResponse = Console.ReadKey();
         Console.WriteLine();
